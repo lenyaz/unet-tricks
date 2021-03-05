@@ -1,0 +1,5 @@
+[{000214A0-0000-0000-C000-000000000046}]
+Prop3=19,2
+[InternetShortcut]
+IDList=
+URL=javascript:(function(){str = window.getSelection();str = str.toString().replace(/[^A-Za-z0-9-]/g, '');window.open('https://tdadmin.unet.by/account/' + encodeURIComponent(str));console.log(str);})();
